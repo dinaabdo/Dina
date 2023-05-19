@@ -309,24 +309,24 @@ left: 0;
 }
    }
 .mega-menu{
-    display: none;
-    position: absolute;
-    left: 0;
-    top: calc(100% + 50px);
-    background: white;
-    width: 100%;
-    gap: 40px;
-    padding: 30px;
-    z-index: -1;
-    border-bottom: 3px solid var(--main-color-two);
-    transition:top var(--transaition--first), opacity var(--transaition--first) ;
-    -webkit-transition:top var(--transaition--first), opacity var(--transaition--first) ;
-    -moz-transition:top var(--transaition--first), opacity var(--transaition--first) ;
-    -ms-transition:top var(--transaition--first), opacity var(--transaition--first) ;
-    -o-transition:top var(--transaition--first), opacity var(--transaition--first) ;
+       display: none;
+       position: absolute;
+       left: 0;
+       top: calc(100% + 50px);
+       background: white;
+       width: 100%;
+       gap: 40px;
+       padding: 30px;
+       z-index: -1;
+       border-bottom: 3px solid var(--main-color-two);
+       transition: top var(--main-transition), display var(--main-transition);
+       -webkit-transition: top var(--main-transition), display var(--main-transition);
+       -moz-transition: top var(--main-transition), display var(--main-transition);
+       -ms-transition: top var(--main-transition), display var(--main-transition);
+       -o-transition: top var(--main-transition), display var(--main-transition);
 }
 header .main-nav > li:hover .mega-menu {
-   display:flex;   
+  display: flex;
   z-index: 100;
   top: calc(100% + 1px);
 }
